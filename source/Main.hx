@@ -71,6 +71,8 @@ class Main extends Sprite
 	public static var fpsCounter:FramerateDisplay;
 	public static var ramCount:DebugDisplay;
 	public static var ramPie:DebugPie;
+	
+	public static var changeID:Int = 0;
 
 	inline public static function toggleFPS(fpsEnabled:Bool):Void
 		if(fpsCounter != null) fpsCounter.visible = fpsEnabled;
